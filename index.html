@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiramisu Express 33</title>
+<style>
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#f8f3eb;
+    color:#4b2e2e;
+}
+header {
+    background:#6b3e2e;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+nav {
+    text-align:center;
+    padding:10px;
+    background:#8b5e3c;
+}
+nav a {
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+.section {
+    padding:40px 20px;
+    text-align:center;
+}
+.card {
+    background:white;
+    margin:15px;
+    padding:20px;
+    border-radius:10px;
+    display:inline-block;
+    width:250px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+button {
+    background:#6b3e2e;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+footer {
+    background:#6b3e2e;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+input, select {
+    padding:8px;
+    margin:5px;
+    width:200px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Tiramisu Express 33</h1>
+<p>Artisanal • Frais • Sur commande</p>
+</header>
+
+<nav>
+<a href="#saveurs">Nos Saveurs</a>
+<a href="#formats">Nos Formats</a>
+<a href="#reservation">Réservation</a>
+</nav>
+
+<section class="section" id="saveurs">
+<h2>Nos Saveurs</h2>
+
+<div class="card">
+<h3>Classique</h3>
+<p>Café & cacao traditionnel</p>
+<p><strong>À partir de 3€</strong></p>
+</div>
+
+<div class="card">
+<h3>Pistache</h3>
+<p>Mascarpone à la pistache</p>
+<p><strong>À partir de 3€</strong></p>
+</div>
+
+<div class="card">
+<h3>Kinder White</h3>
+<p>Chocolat blanc façon Kinder</p>
+<p><strong>À partir de 3€</strong></p>
+</div>
+
+<div class="card">
+<h3>Oreo</h3>
+<p>Crème & éclats d'Oreo</p>
+<p><strong>À partir de 3€</strong></p>
+</div>
+
+</section>
+
+<section class="section" id="formats">
+<h2>Nos Formats</h2>
+
+<div class="card">
+<h3>Petit Format</h3>
+<p>Individuel</p>
+<p><strong>3€</strong></p>
+</div>
+
+<div class="card">
+<h3>Format Moyen</h3>
+<p>2 à 3 personnes</p>
+<p><strong>6€</strong></p>
+</div>
+
+<div class="card">
+<h3>Grand Format</h3>
+<p>5 à 6 personnes</p>
+<p><strong>12€</strong></p>
+</div>
+
+</section>
+
+<section class="section" id="reservation">
+<h2>Réserver votre commande</h2>
+
+<form>
+<br>
+<select required>
+<option value="">Choisir un goût</option>
+<option>Classique</option>
+<option>Pistache</option>
+<option>Kinder White</option>
+<option>Oreo</option>
+</select>
+
+<br>
+
+<select required>
+<option value="">Choisir un format</option>
+<option>Petit - 3€</option>
+<option>Moyen - 6€</option>
+<option>Grand - 12€</option>
+</select>
+
+<br>
+
+<input type="date" required>
+<br>
+<input type="time" required>
+<br>
+<input type="text" placeholder="Nom & Prénom" required>
+<br>
+<input type="tel" placeholder="Téléphone" required>
+<br><br>
+
+<button type="submit">Confirmer la réservation</button>
+</form>
+
+</section>
+
+<footer>
+<p>Préparation fraîche sur commande • À conserver au frais</p>
+<p>Disponible à Bordeaux et ses alentours</p>
+<p>Commande par message privé</p>
+</footer>
+
+</body>
+</html>
